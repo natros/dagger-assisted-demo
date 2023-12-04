@@ -1,0 +1,12 @@
+[versions]
+annotations = "24.1.0"
+dagger = "2.49"
+guava = "31.1-jre"
+logback = "1.2.11"
+
+[libraries]
+annotations = { module = "org.jetbrains:annotations", version.ref = "annotations" }
+dagger = { module = "com.google.dagger:dagger", version.ref = "dagger" }
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "dagger" }
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+logback = { module = "ch.qos.logback:logback-classic", version.ref = "logback" }

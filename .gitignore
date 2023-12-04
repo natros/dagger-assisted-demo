@@ -1,0 +1,6 @@
+*.iml
+*.bak
+*.pyc
+.idea/
+.gradle/
+build/
